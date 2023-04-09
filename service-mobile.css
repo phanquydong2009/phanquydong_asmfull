@@ -1,0 +1,188 @@
+/* Dien Thoai Doc */
+@media all and (min-width: 240px) {
+  #banner > img {
+    width: 100%;
+    height: 300px;
+  }
+  .text-head {
+    margin-top: -270px;
+    text-align: center;
+  }
+  .text-head a {
+    font-size: 50px;
+  }
+  h1 {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .menu-container {
+    margin-top:90px;
+  }
+  .picture>img {
+    width: 100%;
+}
+
+.Menu {
+    display: none;
+}
+
+.picture {
+    width: 100%;
+    margin: 8px 5px;
+    height: auto;
+}
+#slider {
+  width: 63%;
+  height:180px;
+  margin: 40px auto;
+}
+
+
+.container-why #item-why >img {
+  width: 90px;
+}
+.container-why {
+  display: grid;
+  grid-template-columns:33% 33% 33% ;  
+  grid-template-rows:170px 70px;
+}
+.container-why #item-why .why-text> .why-info {
+  display: none;
+} 
+form {
+  width: 100%;
+}
+}
+
+/* Dien Thoai Ngang */
+@media all and (min-width: 576px) {
+  .text-head a {
+    font-size: 90px;
+  }
+  .text-head {
+    margin-top: -300px;
+  }
+  h1 {
+    font-size: 40px;
+    margin-top: -20px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .Menu {
+    display: block;
+}
+
+.Menu-Mobile {
+    display: none;
+}
+
+.picture>img {
+    width: 100%;
+}
+
+.picture {
+    width: 48%;
+}
+#slider {
+  width: 63%;
+  height:300px;
+  margin: 40px auto;
+}
+.container-why #item-why .why-text> .why-info {
+  display:block;
+} 
+.container-why {
+  display: grid;
+  grid-template-columns:33% 33% 33% ;  
+  grid-template-rows:220px 100px;
+}
+form {
+  width: 100%;
+}
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-50, .col-75, .col-100 {
+    flex: 100%;
+  }
+
+}
+
+
+/* TABLET */
+@media all and (min-width: 768px) {
+  .picture {
+    width: 48%;
+    margin: auto;
+}
+.picture>img {
+    width: 100%;
+}
+.content-with-sidebars > * {
+  width:50%;
+}
+.content-with-sidebars > *:nth-child(1) {
+  width:100%;
+}
+
+}
+
+/*LAPTOP*/
+@media all and (min-width: 992px) {
+  #banner > img {
+    height: 450px;
+  }
+  .text-head {
+    margin-top: -460px;
+    text-align: center;
+  }
+  .text-head a {
+    font-size: 100px;
+  }
+  h1 {
+    font-size: 40px;
+    margin-top: -15px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .menu-container {
+    margin-top:170px;
+  }
+  .picture {
+    width: 22%;
+    float: left;
+    margin: 10px 7px;
+    padding: 9px;
+}
+
+.picture>img {
+    width: 100%;
+}
+#slider { 
+  width: 63%;
+  height:370px;
+  margin: 40px auto;
+}
+.content-with-sidebars > * {
+  width:25%;
+}
+.content-with-sidebars > *:nth-child(1) {
+  width:50%;
+}
+.content-with-sidebars > *:nth-child(2) {
+  order:-1;
+}
+.container-why {
+  display: grid;
+  grid-template-columns:33% 33% 33% ;  
+  grid-template-rows:250px 100px;
+}
+.container-why #item-why .why-text> .why-info {
+  display: block;
+} 
+}

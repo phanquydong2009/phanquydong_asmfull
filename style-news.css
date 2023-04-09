@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#menu-head {
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    
+}
+.nav-item >a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.nav-item a:hover {
+    color : red;
+}
+
+
+
+.menu-container {
+    width: 100%;
+
+    margin: 0 auto;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .menu-item.active {
+    background-color: #ccc;
+  }
+  
+  .menu-content {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .menu-panel {
+    display: none;
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .menu-panel.active {
+    display: block;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+    }
+    
+    .menu-item {
+      border: none;
+      border-bottom: 1px solid #ccc;
+    }
+    
+    .menu-panel {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  li {
+    list-style: none;
+  }
+a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+a:hover {
+    color: white;
+}
+a > p {
+    margin-top: 10px;
+}
+
+.sp:hover img{
+    transform: scale(1.1);
+    border-radius: 20px;
+}  
+
+.sp:hover {
+    box-shadow: 3px 3px 3px 3px black;
+}
+
+.column-main {
+    display:flex;
+    flex-wrap:wrap;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.column-main:hover  {
+  box-shadow: 3px 2px 1px 1px black;
+}
+
+/* columns */
+.column-main > * {
+    width:100%;
+    padding:1rem;
+}
+
+
+@media all and (min-width: 700px){
+      
+    .column-main > * {
+        width:50%;
+    }
+    .column-main > *:nth-child(1) {
+        width:100%;
+    }
+}
+
+/* container */
+.responsive-three-column-grid {
+    display:block;
+}
+
+/* columns */
+.responsive-three-column-grid > * {
+    padding:1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .responsive-three-column-grid {
+        display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+footer{
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
